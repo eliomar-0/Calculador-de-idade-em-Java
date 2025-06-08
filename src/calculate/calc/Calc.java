@@ -8,6 +8,7 @@ public class Calc {
     private int mesIdadeAtual;
     private int diaIdadeAtual;
 
+    // 'LocalDate' pega a data atual no formato 'ano/mes/dia'
     private LocalDate data = LocalDate.now();
     private String dataAtual = String.valueOf(data);
 
@@ -47,7 +48,4 @@ public class Calc {
         }
         System.out.println("Você tem " + idade + " anos de idade!!");
     }
-
-
-
 }
